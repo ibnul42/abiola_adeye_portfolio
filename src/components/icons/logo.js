@@ -24,10 +24,12 @@ const IconLogo = () => (
     <title>Logo</title>
     <g transform="translate(-8.000000, -2.000000)">
       <g transform="translate(11.000000, 5.000000)">
-        <path
-          d="M 42.91 47.53 L 32.83 49.07 L 29.4 35.42 L 12.67 35.42 L 8.96 48.72 L 0 48.02 L 6.16 31.01 L 15.54 0.91 L 28.07 0 L 37.1 29.96 L 42.91 47.53 Z M 27.3 28 L 21.77 9.1 L 20.86 9.1 L 14.84 28 L 27.3 28 Z"
-          fill="currentColor"
-        />
+        <g transform="translate(15.000000, 15.000000)">
+          <path
+            d="M 42.91 47.53 L 32.83 49.07 L 29.4 35.42 L 12.67 35.42 L 8.96 48.72 L 0 48.02 L 6.16 31.01 L 15.54 0.91 L 28.07 0 L 37.1 29.96 L 42.91 47.53 Z M 27.3 28 L 21.77 9.1 L 20.86 9.1 L 14.84 28 L 27.3 28 Z"
+            fill="currentColor"
+          />
+        </g>
         <polygon
           id="Shape"
           stroke="currentColor"
