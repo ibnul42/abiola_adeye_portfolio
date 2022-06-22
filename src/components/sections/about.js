@@ -127,19 +127,15 @@ const About = () => {
 
   const skills = [
     'React Native',
-    'SQL',
+    'JavaScript',
+    'C#',
+    'Firebase',
+    'Firestore',
+    'Express JS',
+    'Docker',
+    'Scala',
     'Spark',
     'Kafka',
-    'Hive',
-    'Pandas',
-    'Hbase',
-    'Java',
-    'C#',
-    'Python',
-    'C',
-    'JavaScript',
-    'Wordpress',
-    'Data vizualization',
   ];
 
   return (
@@ -150,14 +146,18 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello, my name is Abiola and I am a graduate student (Msc) in Data Science with a
-              minor in Financial Engineering at EPFL. I have completed my undergraduate (Bachelor of
-              Engineering) in Communication Systems in 2021. I have a strong background in Software
-              Engineering with several mobile applications that I have developed for various
-              clients. I have also worked on different college projects that you can all find on
-              this portfolio or on my Github. I am currently doing an internship in Software
-              Engineering at Bloomberg in London. Feel free to contact me on my E-Mail or on
-              Linkedin if you have any questions
+              My name is Abiola and I am a graduate student (Msc) in Data Science with a minor in
+              Financial Engineering at EPFL. I have completed my undergraduate (Bachelor of
+              Engineering) in Communication Systems in 2021.
+            </p>
+            <p>
+              I have a strong background in Software Engineering with several mobile applications
+              developed for various clients. I have also worked on different college projects that
+              you can all find on this portfolio or on my Github.
+            </p>
+            <p>
+              I am currently doing an internship in Software Engineering at **Bloomberg** in London.
+              Feel free to contact me on my E-Mail or on Linkedin if you have any questions.
             </p>
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>

@@ -59,13 +59,13 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">ABIOLA A.P. ADEYE</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Abiola Adeye</h2>;
+  const three = <h3 className="big-heading">Welcome to my world</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products.
+        I am last year Data Science Graduate Student with strong interest for Large Scale
+        Distributed Systems and their design.
       </p>
     </>
   );
