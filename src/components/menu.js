@@ -266,7 +266,7 @@ const Menu = () => {
               </ol>
             )}
 
-            <a href="/CV.pdf" className="resume-link">
+            <a href="bit.ly/CV_ABIOLA" className="resume-link">
               Resume
             </a>
           </nav>

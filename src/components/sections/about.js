@@ -156,8 +156,9 @@ const About = () => {
               you can all find on this portfolio or on my Github.
             </p>
             <p>
-              I am currently doing an internship in Software Engineering at **Bloomberg** in London.
-              Feel free to contact me on my E-Mail or on Linkedin if you have any questions.
+              I am currently doing an internship in Software Engineering at{' '}
+              <b style={{ color: 'rgba(255,255,255,0.6' }}>Bloomberg</b> in London. Feel free to
+              contact me on my E-Mail or on Linkedin if you have any questions.
             </p>
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
