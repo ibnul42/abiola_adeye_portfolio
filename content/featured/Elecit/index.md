@@ -1,7 +1,7 @@
 ---
 date: '2'
 title: 'Elecit'
-cover: './demo.jpeg'
+cover: './ElecitLineUp.png'
 github: ''
 external: 'https://apps.apple.com/ch/app/elecit/id1579249697?l=en'
 tech:
