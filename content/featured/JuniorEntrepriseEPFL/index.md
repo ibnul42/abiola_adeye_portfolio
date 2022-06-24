@@ -1,9 +1,9 @@
 ---
 date: '1'
 title: 'Junior Enterprise EPFL'
-cover: './demo2.jpeg'
+cover: './GreenUpLineUp.png'
 github: ''
-external: 'https://apps.apple.com/ch/app/elecit/id1579249697?l=en'
+external: 'https://play.google.com/store/apps/details?id=com.greenup&hl=en_GB&gl=US'
 tech:
   - React Native
   - Express
