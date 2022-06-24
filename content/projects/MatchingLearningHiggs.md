@@ -1,8 +1,8 @@
 ---
-date: '2019-07-15'
+date: '2019-15-12'
 title: 'Machine Learning Higgs Boson Challenge'
-github: ''
-external: 'https://github.com/CS-433/HiggsBosonMLChallenge'
+github: 'https://github.com/CS-433/HiggsBosonMLChallenge'
+# external: 'https://github.com/CS-433/HiggsBosonMLChallenge'
 tech:
   - Machine Learning
   - Python

@@ -1,8 +1,8 @@
 ---
-date: '2019-07-15'
+date: '2019-20-12'
 title: 'Creation of a Peer to Peer Network and Map-Reduce'
 github: 'https://github.com/abiola123/MountainBikeGame'
-external: ''
+# external: 'https://github.com/abiola123/MountainBikeGame'
 tech:
   - Map Reduce
   - Peer to Peer

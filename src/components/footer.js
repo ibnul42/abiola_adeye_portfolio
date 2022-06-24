@@ -15,7 +15,6 @@ const StyledFooter = styled.footer`
 
 const StyledSocialLinks = styled.div`
   display: none;
-
   @media (max-width: 768px) {
     display: block;
     width: 100%;
@@ -23,13 +22,11 @@ const StyledSocialLinks = styled.div`
     margin: 0 auto 10px;
     color: var(--light-slate);
   }
-
   ul {
     ${({ theme }) => theme.mixins.flexBetween};
     padding: 0;
     margin: 0;
     list-style: none;
-
     a {
       padding: 10px;
       svg {
@@ -45,14 +42,11 @@ const StyledCredit = styled.div`
   font-family: var(--font-mono);
   font-size: var(--fz-xxs);
   line-height: 1;
-
   a {
     padding: 10px;
   }
-
   .github-stats {
     margin-top: 10px;
-
     & > span {
       display: inline-flex;
       align-items: center;
@@ -68,7 +62,7 @@ const StyledCredit = styled.div`
 `;
 
 const Footer = () => {
-  const [setGitHubInfo] = useState({
+  const [githubInfo, setGitHubInfo] = useState({
     stars: null,
     forks: null,
   });
@@ -104,7 +98,24 @@ const Footer = () => {
         </ul>
       </StyledSocialLinks>
 
-      <StyledCredit tabindex="-1"></StyledCredit>
+      <StyledCredit tabindex="-1">
+        <a href="https://github.com/bchiang7/v4">
+          <div>Theme credit to Brittany Chiang</div>
+
+          {githubInfo.stars && githubInfo.forks && (
+            <div className="github-stats">
+              <span>
+                <Icon name="Star" />
+                <span>{githubInfo.stars.toLocaleString()}</span>
+              </span>
+              <span>
+                <Icon name="Fork" />
+                <span>{githubInfo.forks.toLocaleString()}</span>
+              </span>
+            </div>
+          )}
+        </a>
+      </StyledCredit>
     </StyledFooter>
   );
 };

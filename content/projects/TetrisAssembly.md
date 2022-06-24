@@ -1,8 +1,8 @@
 ---
-date: '2019-11-12'
+date: '2019-10-12'
 title: 'Tetris in Assembly'
-github: ''
-external: 'https://github.com/abiola123/TetrisInAssembly'
+github: 'https://github.com/abiola123/TetrisInAssembly'
+# external: 'https://github.com/abiola123/TetrisInAssembly'
 tech:
   - Assembly
   - FPGA

@@ -1,8 +1,8 @@
 ---
-date: '2019-11-12'
+date: '2019-25-12'
 title: 'Machine Learning Road Segmentation Challenge'
-github: ''
-external: 'https://github.com/abiola123/MachineLearningRoadSegmentation'
+github: 'https://github.com/abiola123/MachineLearningRoadSegmentation'
+# external: 'https://github.com/abiola123/MachineLearningRoadSegmentation'
 tech:
   - Machine Learning
   - Deep Learning
